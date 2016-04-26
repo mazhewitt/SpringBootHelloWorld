@@ -11,13 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloWorldController {
-        private static final String template = "Hello, %s!";
+
         private final AtomicLong counter = new AtomicLong();
 
         @RequestMapping("/greeting")
-        public HelloWorld greeting(@RequestParam(value="name", defaultValue="World") String name) {
-            return new HelloWorld(counter.incrementAndGet(),
-                    String.format(template, name));
+        public HelloWorld greeting() {
+            return new HelloWorld("Hello, World!");
         }
 
 }

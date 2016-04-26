@@ -1,8 +1,6 @@
 package hello;
 
-/**
- * Created by Mazda on 13/01/2016.
- */
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

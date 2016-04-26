@@ -10,4 +10,4 @@ Narrative:
 
 Scenario: Hello User
 When I Say Hello To Mazda
-Then The greeting should be Hello, Mazda!
+Then The greeting should be Hello, World!
