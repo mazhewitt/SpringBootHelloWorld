@@ -16,7 +16,7 @@ public class HelloWorldController {
 
         @RequestMapping("/greeting")
         public HelloWorld greeting() {
-            return new HelloWorld("Hello, World!");
+            return new HelloWorld("Hello World!");
         }
 
 }
